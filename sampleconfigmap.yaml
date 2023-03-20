@@ -10,5 +10,5 @@ data:
     # Update and install packages
     apt-get update
     apt-get install cowsay -y
-    systemctl stop apt-daily-upgrade.timer
-    systemctl disable apt-daily-upgrade.service
+    systemctl disable apt-daily-upgrade.timer
+    systemctl mask apt-daily-upgrade.service
